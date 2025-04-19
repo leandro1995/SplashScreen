@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SplashScreen</string>
-    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Text -->
+    <string name="welcome_text">Ingreso a la app</string>
+
 </resources>
