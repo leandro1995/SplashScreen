@@ -12,4 +12,6 @@
         <item name="postSplashScreenTheme">@style/Theme.SplashScreenExample</item>
     </style>
 
+    <style name="Theme.SplashScreen" parent="android:Theme.Material.Light.NoActionBar" />
+
 </resources>
