@@ -12,6 +12,7 @@ Agrega esta línea en tu archivo `build.gradle`:
 ```groovy
 implementation("androidx.core:core-splashscreen:x.x.x")
 ```
+</details>
 
 Una vez implementada la librería, es necesario crear o configurar el tema que se utilizará específicamente para el SplashScreen.
 
@@ -25,6 +26,7 @@ Una vez implementada la librería, es necesario crear o configurar el tema que s
         <item name="postSplashScreenTheme">TuTemaCentral</item>
     </style>
 ```
+</details>
 
 Finalmente, en la SplashActivity, se utilizará el siguiente código para implementar el SplashScreen correctamente.
 
@@ -53,3 +55,4 @@ class SplashActivity : ComponentActivity() {
     }
 }
 ```
+</details>
